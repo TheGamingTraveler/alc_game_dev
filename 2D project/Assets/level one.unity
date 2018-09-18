@@ -281,7 +281,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1.0239412, y: 1.0241231, z: 1.0476975}
+  m_LocalScale: {x: 1.0484556, y: 1.048828, z: 1.0976703}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -395,9 +395,9 @@ GameObject:
   m_Component:
   - component: {fileID: 867868222}
   m_Layer: 8
-  m_Name: GroundCheck
+  m_Name: groundcheck
   m_TagString: Untagged
-  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 1548985459}
   - component: {fileID: 1548985458}
   - component: {fileID: 1548985460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +485,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1548985455}
   m_LocalRotation: {x: 0.043577887, y: 0.043577887, z: -0.0019026523, w: 0.99809736}
-  m_LocalPosition: {x: 1, y: 1, z: 0}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children:
   - {fileID: 867868222}
@@ -548,3 +548,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37b4f4e4a372e420d81272b552886d94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveSpeed: 3
+  jumpheight: 5
+  groundcheck: {fileID: 867868222}
+  groundCheckRadius: 0.5
+  whatisground:
+    serializedVersion: 2
+    m_Bits: 0
