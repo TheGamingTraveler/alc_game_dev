@@ -186,7 +186,7 @@ Transform:
   m_LocalScale: {x: 171.83768, y: 3, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &89712914
 BoxCollider2D:
@@ -279,12 +279,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1.0484556, y: 1.048828, z: 1.0976703}
+  m_LocalRotation: {x: -0.043577887, y: -0.043577887, z: 0.0019026523, w: 0.99809736}
+  m_LocalPosition: {x: 0.17431155, y: -0.17364824, z: -9.924039}
+  m_LocalScale: {x: 0.22648118, y: 0.22669291, z: 1.1902918}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_Father: {fileID: 1548985457}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &774178018
 GameObject:
@@ -384,7 +384,7 @@ Transform:
   m_LocalScale: {x: 74.57622, y: 2.3791785, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &867868221
 GameObject:
@@ -397,7 +397,7 @@ GameObject:
   m_Layer: 8
   m_Name: groundcheck
   m_TagString: Untagged
-  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -485,12 +485,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1548985455}
   m_LocalRotation: {x: 0.043577887, y: 0.043577887, z: -0.0019026523, w: 0.99809736}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children:
   - {fileID: 867868222}
+  - {fileID: 519420032}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 5, y: 5, z: 0}
 --- !u!50 &1548985458
 Rigidbody2D:
@@ -554,4 +555,4 @@ MonoBehaviour:
   groundCheckRadius: 0.5
   whatisground:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
