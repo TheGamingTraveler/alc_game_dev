@@ -4,11 +4,11 @@
     <Files>
       <File FileName="Assets/Scrips/CharMove.cs" Line="5" Column="39" />
       <File FileName="Assets/Scrips/Deathbox.cs" Line="23" Column="2" />
-      <File FileName="Assets/Scrips/EnemyPatrol.cs" Line="44" Column="55" />
+      <File FileName="Assets/Scrips/EnemyPatrol.cs" Line="31" Column="7" />
       <File FileName="Assets/Scrips/PlayerHealth.cs" Line="1" Column="1" />
       <File FileName="Assets/Scrips/respawn.cs" Line="5" Column="39" />
-      <File FileName="Assets/Scrips/CheckPoint.cs" Line="11" Column="9" />
-      <File FileName="Assets/Scrips/LevelManager.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scrips/CheckPoint.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scrips/LevelManager.cs" Line="40" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
