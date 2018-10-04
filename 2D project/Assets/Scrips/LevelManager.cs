@@ -51,6 +51,8 @@ public class LevelManager : MonoBehaviour {
         yield return new WaitForSeconds(respawndelay);
         //gravity restore
         PC.GetComponent<Rigidbody2D>().gravityScale = gravityStore;
+        //math PC transform position
+        PC.transform.position = currentCheckPoint.transform.position;
         //show PC
         //PC.enable = true;
         PC.GetComponent<Renderer>().enabled = true;
