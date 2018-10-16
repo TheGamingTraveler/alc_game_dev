@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 70164765}
   - component: {fileID: 70164764}
   m_Layer: 0
-  m_Name: Deathe Particle
+  m_Name: Death Particle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -196,7 +196,7 @@ ParticleSystem:
   lengthInSec: 0.5
   simulationSpeed: 1
   stopAction: 2
-  looping: 0
+  looping: 1
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -838,7 +838,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.5028191
+      value: 0.4207119
       mode: 0
       spread: 0
       speed:
@@ -5063,7 +5063,7 @@ GameObject:
   m_Layer: 0
   m_Name: CheckPoint_01
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -9824,7 +9824,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4007484640406100, guid: 3d221ec0407a541c1951a1d5c6dd5be3, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.43
+      value: -7.69
       objectReference: {fileID: 0}
     - target: {fileID: 4007484640406100, guid: 3d221ec0407a541c1951a1d5c6dd5be3, type: 2}
       propertyPath: m_LocalPosition.z
@@ -9902,24 +9902,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelManager: {fileID: 1548985461}
---- !u!114 &1485169407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1485169400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7adfbf506e844407e834fbbb7e34e073, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveSpeed: 0
-  jumpheight: 0
-  groundcheck: {fileID: 1380917106}
-  groundCheckRadius: 0
-  whatisground:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!50 &1548985458 stripped
 Rigidbody2D:
   m_PrefabParentObject: {fileID: 50226504643496502, guid: ebd82eda8a9b84d9fb75602a440bdcb6,
@@ -10188,8 +10170,7 @@ Prefab:
     - target: {fileID: 1889049249875176, guid: ebd82eda8a9b84d9fb75602a440bdcb6, type: 2}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 114239127301381822, guid: ebd82eda8a9b84d9fb75602a440bdcb6,
         type: 2}
       propertyPath: deathParticle
@@ -10207,7 +10188,33 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -0.17
       objectReference: {fileID: 0}
+    - target: {fileID: 114239127301381822, guid: ebd82eda8a9b84d9fb75602a440bdcb6,
+        type: 2}
+      propertyPath: currentCheckPoint
+      value: 
+      objectReference: {fileID: 501421207}
+    - target: {fileID: 114766016563954336, guid: ebd82eda8a9b84d9fb75602a440bdcb6,
+        type: 2}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 1380917106}
+    - target: {fileID: 114766016563954336, guid: ebd82eda8a9b84d9fb75602a440bdcb6,
+        type: 2}
+      propertyPath: whatIsGround.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 114766016563954336, guid: ebd82eda8a9b84d9fb75602a440bdcb6,
+        type: 2}
+      propertyPath: JumpHeight
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114766016563954336, guid: ebd82eda8a9b84d9fb75602a440bdcb6,
+        type: 2}
+      propertyPath: groundCheckRadius
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114386815332045026, guid: ebd82eda8a9b84d9fb75602a440bdcb6, type: 2}
+    - {fileID: 114452402014344580, guid: ebd82eda8a9b84d9fb75602a440bdcb6, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: ebd82eda8a9b84d9fb75602a440bdcb6, type: 2}
   m_IsPrefabParent: 0
