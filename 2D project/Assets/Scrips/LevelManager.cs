@@ -30,10 +30,10 @@ public class LevelManager : MonoBehaviour {
 	}
 
     public void RespawnPlayer(){
-        StartCoroutine("RespawnPlayeCo");
+        StartCoroutine("RespawnPlayerCo");
     }
 
-    public IEnumerator RespawnplayerCo(){
+    public IEnumerator RespawnPlayerCo(){
         //Generate Death Particle
         Instantiate(deathParticle, PC.transform.position, PC.transform.rotation);
         //hide PC

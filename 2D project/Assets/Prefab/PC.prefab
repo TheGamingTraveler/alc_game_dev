@@ -21,8 +21,6 @@ GameObject:
   - component: {fileID: 4261672638235188}
   - component: {fileID: 20312798595959542}
   - component: {fileID: 81066498335794968}
-  - component: {fileID: 114452402014344580}
-  - component: {fileID: 114386815332045026}
   m_Layer: 0
   m_Name: Main Cam
   m_TagString: MainCamera
@@ -41,7 +39,7 @@ GameObject:
   m_Layer: 8
   m_Name: groundcheck
   m_TagString: Untagged
-  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -59,6 +57,7 @@ GameObject:
   - component: {fileID: 114766016563954336}
   - component: {fileID: 114239127301381822}
   - component: {fileID: 114894216226406154}
+  - component: {fileID: 114978101896673880}
   m_Layer: 8
   m_Name: PC
   m_TagString: Untagged
@@ -77,7 +76,7 @@ GameObject:
   m_Layer: 8
   m_Name: FirePoint
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -88,7 +87,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1601885204788562}
   m_LocalRotation: {x: 0.043577887, y: 0.043577887, z: -0.0019026523, w: 0.99809736}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.02, y: 0, z: -0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children:
   - {fileID: 4498563552627712}
@@ -104,7 +103,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1240481176381624}
   m_LocalRotation: {x: -0.043577887, y: -0.043577887, z: 0.0019026523, w: 0.99809736}
-  m_LocalPosition: {x: 0.17431155, y: -0.17, z: -9.93}
+  m_LocalPosition: {x: 0.174, y: -0.17, z: -9.93}
   m_LocalScale: {x: 0.22648118, y: 0.22669291, z: 1.1902918}
   m_Children: []
   m_Father: {fileID: 4081484147507960}
@@ -241,35 +240,6 @@ MonoBehaviour:
   deathParticle: {fileID: 0}
   respawndelay: 0
   pointPenaltyOnDeath: 0
---- !u!114 &114386815332045026
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1240481176381624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2b54ce3ddcc0475891363660d89656f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelManager: {fileID: 0}
---- !u!114 &114452402014344580
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1240481176381624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6db74b248d3d64d77ae257dbc7eb8133, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentCheckPoint: {fileID: 0}
-  PC: {fileID: 0}
-  respawnParticle: {fileID: 0}
-  deathParticle: {fileID: 0}
-  respawndelay: 0
-  pointPenaltyOnDeath: 0
 --- !u!114 &114766016563954336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -282,10 +252,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 3
-  jumpheight: 5
-  groundcheck: {fileID: 4498563552627712}
+  JumpHeight: 5
+  groundCheck: {fileID: 4498563552627712}
   groundCheckRadius: 0.5
-  whatisground:
+  whatIsGround:
     serializedVersion: 2
     m_Bits: 256
 --- !u!114 &114894216226406154
@@ -301,6 +271,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FirePoint: {fileID: 4970349923041098}
   Projectile: {fileID: 0}
+--- !u!114 &114978101896673880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1601885204788562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28df283229d52447986664bdc9e5f19b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 114239127301381822}
 --- !u!212 &212067183344028374
 SpriteRenderer:
   m_ObjectHideFlags: 1
