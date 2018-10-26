@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{D7364DB2-1B26-5EF4-49ED-52A4E6E645A1}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scrips/CheckPoint.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scrips/CoinPickup1.cs">
     <Files>
-      <File FileName="Assets/Scrips/CheckPoint.cs" Line="21" Column="1" />
+      <File FileName="Assets/Scrips/CheckPoint.cs" Line="27" Column="1" />
       <File FileName="Assets/Scrips/CoinPickUp.cs" Line="10" Column="3" />
-      <File FileName="Assets/Scrips/Deathbox.cs" Line="23" Column="2" />
+      <File FileName="Assets/Scrips/Deathbox.cs" Line="13" Column="10" />
       <File FileName="Assets/Scrips/EnemyPatrol.cs" Line="31" Column="7" />
       <File FileName="Assets/Scrips/KillPlayer.cs" Line="17" Column="39" />
-      <File FileName="Assets/Scrips/LevelManager.cs" Line="34" Column="6" />
+      <File FileName="Assets/Scrips/LevelManager.cs" Line="36" Column="32" />
       <File FileName="Assets/Scrips/PlayerHealth.cs" Line="1" Column="1" />
       <File FileName="Assets/Scrips/ScoreManager.cs" Line="34" Column="1" />
       <File FileName="Assets/Scrips/Shoot.cs" Line="18" Column="3" />
       <File FileName="Assets/Scrips/CharMove.cs" Line="51" Column="9" />
       <File FileName="Assets/Scrips/Projectile.cs" Line="31" Column="27" />
+      <File FileName="Assets/Scrips/CoinPickup1.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
