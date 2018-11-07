@@ -6,6 +6,12 @@ TextureImporter:
     21300002: ground_snow
     21300004: ground_snow_1
     21300006: preview_0
+    21300008: gound_grass
+    21300010: preview_1
+    21300012: preview_2
+    21300014: preview_3
+    21300016: ground_grass_subdirt
+    21300018: ground_grass_edge
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -89,10 +95,10 @@ TextureImporter:
       name: ground_dirt
       rect:
         serializedVersion: 2
-        x: 20
-        y: 577
-        width: 33
-        height: 33
+        x: 22
+        y: 578
+        width: 30
+        height: 30
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,10 +115,10 @@ TextureImporter:
       name: ground_snow
       rect:
         serializedVersion: 2
-        x: 20
-        y: 504
-        width: 33
-        height: 33
+        x: 22
+        y: 506
+        width: 30
+        height: 30
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,12 +135,12 @@ TextureImporter:
       name: ground_snow_1
       rect:
         serializedVersion: 2
-        x: 92
-        y: 504
-        width: 32
-        height: 32
+        x: 94
+        y: 506
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,18 +155,138 @@ TextureImporter:
       name: preview_0
       rect:
         serializedVersion: 2
-        x: 93
-        y: 577
-        width: 31
-        height: 32
+        x: 94
+        y: 578
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 9cd85f03481724ada9be722a865a1409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gound_grass
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 434
+        width: 30
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dadc882bd69443bbbb78e682b9489ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 433
+        width: 30
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dac900dbf1cf498aa5937c7a8d1cce5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 541
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd504c70ca6b4439b0cf1680f2395ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: preview_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 469
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264b4ddca404742af8a1627a19929c50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_subdirt
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 397
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f1567936e7c475fbc633f2c024ccce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_grass_edge
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 433
+        width: 30
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aebbb3e5e5f84d4d8dad58daa46cf03
       vertices: []
       indices: 
       edges: []
