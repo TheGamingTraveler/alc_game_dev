@@ -4,14 +4,17 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: ground_dirt
     21300002: ground_snow
-    21300004: ground_snow_1
+    21300004: ground_snow_mid
     21300006: preview_0
     21300008: gound_grass
-    21300010: preview_1
-    21300012: preview_2
+    21300010: gound_grass_mid
+    21300012: ground_dirt_subground
     21300014: preview_3
     21300016: ground_grass_subdirt
     21300018: ground_grass_edge
+    21300020: gound_grass_egde_right
+    21300022: lava
+    21300024: lava_2
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -132,7 +135,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground_snow_1
+      name: ground_snow_mid
       rect:
         serializedVersion: 2
         x: 94
@@ -192,7 +195,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: preview_1
+      name: gound_grass_mid
       rect:
         serializedVersion: 2
         x: 94
@@ -212,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: preview_2
+      name: ground_dirt_subground
       rect:
         serializedVersion: 2
         x: 58
@@ -276,9 +279,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 166
-        y: 433
+        y: 434
         width: 30
-        height: 31
+        height: 30
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,6 +290,66 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0aebbb3e5e5f84d4d8dad58daa46cf03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gound_grass_egde_right
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 398
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21da0cd94100144ad878686e2d75b57b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 578
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f97e16dd56a5498c80345d948d7bfb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 543
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffee9af736f04d8594a6d86f20a7f23
       vertices: []
       indices: 
       edges: []
