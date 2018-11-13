@@ -6,6 +6,7 @@ public class LevelManager : MonoBehaviour {
 
     public GameObject currentCheckPoint;
     public Rigidbody2D PC;
+    public GameObject PC2;
 
     //Particles
 
@@ -25,7 +26,8 @@ public class LevelManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        //PC = FindObjectOfType<Rigidbody2D>();
+        PC = GameObject.Find("PC").GetComponent<Rigidbody2D>();
+        PC2 = GameObject.Find("PC");
 		
 	}
 
@@ -38,6 +40,7 @@ public class LevelManager : MonoBehaviour {
         Instantiate(deathParticle, PC.transform.position, PC.transform.rotation);
         //hide PC
         //PC.enabled = false;
+        PC2.SetActive(false);
         PC.GetComponent<Renderer>().enabled = false;
         //Gravity Reset
         gravityStore = PC.GetComponent<Rigidbody2D>().gravityScale;
@@ -55,6 +58,7 @@ public class LevelManager : MonoBehaviour {
         PC.transform.position = currentCheckPoint.transform.position;
         //show PC
         //PC.enable = true;
+        PC2.SetActive(true);
         PC.GetComponent<Renderer>().enabled = true;
         //spawn PC
         Instantiate(respawnParticle, currentCheckPoint.transform.position, currentCheckPoint.transform.rotation);

@@ -8,6 +8,8 @@ public class Shoot : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        // Load Projectile from Resources/Prefabs folder
+        Projectile = Resources.Load("Prefabs/Projectile") as GameObject;
 		
 	}
 	
