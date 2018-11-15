@@ -51,10 +51,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6db74b248d3d64d77ae257dbc7eb8133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCheckPoint: {fileID: 0}
+  currentCheckPoint: {fileID: 1529379113756562, guid: 922b746ae539f455096ea7bdb54e311c,
+    type: 2}
   PC: {fileID: 0}
-  PC2: {fileID: 0}
-  respawnParticle: {fileID: 0}
-  deathParticle: {fileID: 0}
-  respawndelay: 0
+  PC2: {fileID: 1601885204788562, guid: ebd82eda8a9b84d9fb75602a440bdcb6, type: 2}
+  respawnParticle: {fileID: 1284703425713712, guid: 2ae35233878764e51be59edb949f51c7,
+    type: 2}
+  deathParticle: {fileID: 1548306256678300, guid: 8da1ef008667c422f98cab503d1a8b37,
+    type: 2}
+  respawndelay: 1.5
   pointPenaltyOnDeath: 0

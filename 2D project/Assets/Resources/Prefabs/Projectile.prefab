@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4007484640406100}
   - component: {fileID: 212864358831095242}
   - component: {fileID: 58556467284929912}
+  - component: {fileID: 50598565967123352}
+  - component: {fileID: 114109839734148308}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -41,6 +43,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50598565967123352
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1491559503613732}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!58 &58556467284929912
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -56,6 +78,23 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1
+--- !u!114 &114109839734148308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1491559503613732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7137724f974ae418ba975138a756e9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 50
+  TimeOut: 5
+  PC: {fileID: 1601885204788562, guid: ebd82eda8a9b84d9fb75602a440bdcb6, type: 2}
+  EnemyDeath: {fileID: 1435593960197846, guid: e5a78fe4a981442f381500e623a7a8f9, type: 2}
+  ProjectileParticle: {fileID: 1608228290002712, guid: 266e925e2cfa84b5fba8ea007c26f350,
+    type: 2}
 --- !u!212 &212864358831095242
 SpriteRenderer:
   m_ObjectHideFlags: 1
