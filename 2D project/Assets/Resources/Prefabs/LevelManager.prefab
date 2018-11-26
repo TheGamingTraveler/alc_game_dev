@@ -53,7 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentCheckPoint: {fileID: 1529379113756562, guid: 922b746ae539f455096ea7bdb54e311c,
     type: 2}
-  PC: {fileID: 0}
+  PC: {fileID: 50226504643496502, guid: ebd82eda8a9b84d9fb75602a440bdcb6, type: 2}
   PC2: {fileID: 1601885204788562, guid: ebd82eda8a9b84d9fb75602a440bdcb6, type: 2}
   respawnParticle: {fileID: 1284703425713712, guid: 2ae35233878764e51be59edb949f51c7,
     type: 2}
