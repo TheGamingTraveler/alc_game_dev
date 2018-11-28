@@ -182,6 +182,11 @@ Prefab:
       propertyPath: InitialModule.startLifetime.scalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1529379113756562, guid: 922b746ae539f455096ea7bdb54e311c, type: 2}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000,
+        type: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 922b746ae539f455096ea7bdb54e311c, type: 2}
   m_IsPrefabParent: 0
@@ -7933,11 +7938,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4838107707056310, guid: 921f93ff33aa442f3b66a7e67db97742, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -5.27
+      value: -5.24
       objectReference: {fileID: 0}
     - target: {fileID: 4838107707056310, guid: 921f93ff33aa442f3b66a7e67db97742, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.98
+      value: -1.23
       objectReference: {fileID: 0}
     - target: {fileID: 4838107707056310, guid: 921f93ff33aa442f3b66a7e67db97742, type: 2}
       propertyPath: m_LocalPosition.z
@@ -7970,6 +7975,11 @@ Prefab:
       objectReference: {fileID: 501421207}
     - target: {fileID: 114602493458321476, guid: 921f93ff33aa442f3b66a7e67db97742,
         type: 2}
+      propertyPath: PC
+      value: 
+      objectReference: {fileID: 1548985458}
+    - target: {fileID: 114602493458321476, guid: 921f93ff33aa442f3b66a7e67db97742,
+        type: 2}
       propertyPath: PC2
       value: 
       objectReference: {fileID: 2099948652}
@@ -7983,25 +7993,6 @@ Prefab:
       propertyPath: deathParticle
       value: 
       objectReference: {fileID: 70164763}
-    - target: {fileID: 1398920143003822, guid: 921f93ff33aa442f3b66a7e67db97742, type: 2}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114602493458321476, guid: 921f93ff33aa442f3b66a7e67db97742,
-        type: 2}
-      propertyPath: respawndelay
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114602493458321476, guid: 921f93ff33aa442f3b66a7e67db97742,
-        type: 2}
-      propertyPath: PC
-      value: 
-      objectReference: {fileID: 1548985458}
-    - target: {fileID: 114602493458321476, guid: 921f93ff33aa442f3b66a7e67db97742,
-        type: 2}
-      propertyPath: pointPenaltyOnDeath
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 921f93ff33aa442f3b66a7e67db97742, type: 2}
   m_IsPrefabParent: 0
