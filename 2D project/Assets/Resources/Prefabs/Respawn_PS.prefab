@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4115754703540752}
   - component: {fileID: 198595378406078260}
   - component: {fileID: 199005878888082920}
-  - component: {fileID: 114820558847346610}
+  - component: {fileID: 114712816340262962}
   m_Layer: 0
   m_Name: Respawn_PS
   m_TagString: Untagged
@@ -36,13 +36,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1284703425713712}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -1.39, y: -15.39, z: -0}
+  m_LocalPosition: {x: 0.37000036, y: -4.1970596, z: -3.6773431}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &114820558847346610
+--- !u!114 &114712816340262962
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -60,7 +60,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1284703425713712}
   serializedVersion: 5
-  lengthInSec: 1.5
+  lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
   looping: 0
@@ -132,7 +132,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.5
+      scalar: 1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -185,7 +185,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 3.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
