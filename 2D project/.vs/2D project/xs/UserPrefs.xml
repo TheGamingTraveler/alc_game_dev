@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{D7364DB2-1B26-5EF4-49ED-52A4E6E645A1}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scrips/MainMenu.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Scrips/CharMove.cs" Line="43" Column="13" />
+      <File FileName="Assets/Scrips/CharMove.cs" Line="63" Column="23" />
       <File FileName="Assets/Scrips/CheckPoint.cs" Line="27" Column="1" />
       <File FileName="Assets/Scrips/CoinPickUp.cs" Line="10" Column="3" />
       <File FileName="Assets/Scrips/Deathbox.cs" Line="13" Column="10" />
@@ -16,7 +16,6 @@
       <File FileName="Assets/Scrips/Projectile.cs" Line="28" Column="15" />
       <File FileName="Assets/Scrips/CoinPickup1.cs" Line="11" Column="3" />
       <File FileName="Assets/Scrips/CameraFollow.cs" Line="27" Column="138" />
-      <File FileName="Assets/Scrips/PlayerControl.cs" Line="63" Column="48" />
       <File FileName="Assets/Scrips/MainMenu.cs" Line="15" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
