@@ -39,7 +39,7 @@ public class CharMove : MonoBehaviour {
         //Double Jump Code
         if (grounded)
             doubleJump = false;
-            animator.SetBool("isJumping", false);
+            animator.SetBool("isJumping",false);
 
         if(Input.GetKeyDown(KeyCode.Space) && !doubleJump && !grounded){
             Jump();
@@ -79,7 +79,7 @@ public class CharMove : MonoBehaviour {
 
     public void Jump(){
         GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, JumpHeight);
-        animator.SetBool("isJumping", true);
+        animator.SetBool("isJumping",true);
     }
         
 }
