@@ -6858,8 +6858,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -529.5, y: 209.8}
-  m_SizeDelta: {x: 510.8, y: 50.3}
+  m_AnchoredPosition: {x: -529.5, y: 200.7}
+  m_SizeDelta: {x: 510.8, y: 68.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1254144155
 MonoBehaviour:
@@ -6894,7 +6894,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Kill all of the enemies in the level and head to the platform the green
-    particles
+    particles(enemies that fall of platforms count, for right now)
 --- !u!222 &1254144156
 CanvasRenderer:
   m_ObjectHideFlags: 0
